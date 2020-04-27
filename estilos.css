@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #9BD2FE;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.redes_sociales{
+    /* width: 100vw; */
+    height: 70px;
+    background-color: #E8E9EB;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botones_sociales{
+    width: 300px;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botones_sociales li{
+    list-style: none;
+}
+
+.botones_sociales .fb{
+    color: #0E8EF1;
+    font-size: 30px;
+
+}
+.botones_sociales .youtube{
+    color: red;
+    font-size: 30px;
+}
+
+.titulos{
+    text-align: center;
+    line-height: 60px;
+    margin-top: 30px;
+}
+
+.titulos h1{
+    font-size: 50px;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.link_menu{
+    /* width: 1344px; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link_menu a:hover{
+    color: hsla(0, 0%, 21%, 0.867);
+    font-weight: bold;
+}
+
+.img_principal{
+    width: 70%;
+    height: 600px;
+    background-image: url('./img/imagen_fondo2.jpg');
+    margin: 20px 50%;
+    transform: translate(-50%);
+    border-radius: 30px;
+}
+
+.contenedor{
+    width:70% ;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+
+}
+
+section{
+    /* flex: 3; */
+    margin-top: 50px;
+    width: 60%;
+}
+
+aside{
+    /* flex: 1; */
+    text-align: center;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.noticia1{
+    text-align: center;
+    background-color: #eeeeee;
+    border-radius: 10px ;
+}
+
+.img_noticia1{
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.noticia1 p{
+    text-align: justify;
+    margin-top: 30px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.noticia1 button{
+    margin: 30px 0px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.noticia1 button:hover{
+    background-color: #9BD2FE;
+}
+
+.noticia2{
+    text-align: center;
+    margin-top: 70px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+
+}
+
+.img_noticia2{
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.noticia2 p{
+    text-align: justify;
+    margin-top: 30px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.noticia2 button{
+    margin: 30px 0px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.noticia2 button:hover{
+    background-color: #9BD2FE;
+}
+.info1{
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.info1 img{
+    width: 70%;
+    height: 350px;
+    border-radius: 50%;
+    border: 10px solid #aaaaaa;
+    margin-top: 15px;
+}
+
+.info1 p{
+    text-align: center;
+    margin: 30px 0px;
+    padding: 30px 40px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.info1 h3{
+    margin-top: 30px;
+}
+
+.destacados{
+    background-color: #eeeeee;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.destacados h3{
+    padding: 30px 0px;
+}
+
+.link_destacados{
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.link_destacados a:hover{
+    color: rgba(54, 54, 54, 0.867);
+    font-weight: bold;
+}
+
+footer{
+    background-color: #E8E9EB;
+    height: 50px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+@media screen and (max-width:1024px){
+    section{
+        width: 100%;
+    }
+    .img_principal{
+        width: 100%;
+
+    }
+    aside{
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px){
+    .menu{
+        display: none;
+    }
+    section{
+        width: 100%;
+    }
+    .img_principal{
+        width: 100%;
+        
+    }
+
+    .noticia1{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    .menuicono{
+        display: block;
+    }
+}

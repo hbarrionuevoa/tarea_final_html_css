@@ -16,7 +16,9 @@ body{
     background-color: #9BD2FE;
     font-family: 'Ubuntu', sans-serif;
 }
-
+#menuicono{
+    display: none;
+}
 .redes_sociales{
     /* width: 100vw; */
     height: 70px;
